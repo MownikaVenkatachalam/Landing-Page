@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Our Amazing Product</h1>
+            <p>Experience the best service with us!</p>
+            <a href="nextpage.html" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="feature">
+                <h3>Fast & Reliable</h3>
+                <p>Our service ensures quick and efficient solutions.</p>
+            </div>
+            <div class="feature">
+                <h3>Secure & Trusted</h3>
+                <p>We prioritize security and reliability in all aspects.</p>
+            </div>
+            <div class="feature">
+                <h3>Easy to Use</h3>
+                <p>Our platform is user-friendly and intuitive.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            alert("✅ Message Sent!");
+        });
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+</html>
+
+
